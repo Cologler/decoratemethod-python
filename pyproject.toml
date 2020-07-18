@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Let function decorator decorate the bound method of per instance."
 authors = ["Cologler <skyoflw@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Cologler/decoratemethod-python"
+repository = "https://github.com/Cologler/decoratemethod-python"
 
 [tool.poetry.dependencies]
 python = "^3.8"
