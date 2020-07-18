@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "decoratemethod"
 version = "0.1.0"
-description = "decorate method with any func decorator"
+description = "Let function decorator decorate the bound method of per instance."
 authors = ["Cologler <skyoflw@gmail.com>"]
 license = "MIT"
 
