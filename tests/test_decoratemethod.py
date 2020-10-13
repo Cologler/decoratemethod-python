@@ -18,7 +18,7 @@ def test_decorate_with_lru_cache():
             self.basevalue = 0
 
         @decorate(lru_cache)
-        def add(self, value):
+        def add(self, value) -> int:
             self.called += 1
             return self.basevalue + value
 
@@ -38,4 +38,3 @@ def test_decorate_with_lru_cache():
     assert f2.add(50) == 80
     assert f1.called == 2
     assert f2.called == 2
-
