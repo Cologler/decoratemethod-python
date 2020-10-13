@@ -7,6 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/Cologler/decoratemethod-python"
 repository = "https://github.com/Cologler/decoratemethod-python"
+include = ["*.pyi"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
