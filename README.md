@@ -1,12 +1,12 @@
-# decoratemethod-python
+# decoratemethod
 
-Let function decorator decorate the bound method of per instance.
+Let function decorator decorate the bound method for each instance.
 
-## Examples
+## Usage
 
 ### lru_cache
 
-To make per instance has they own lru cache:
+To let each instance has their own lru cache:
 
 ``` py
 from functools import lru_cache
