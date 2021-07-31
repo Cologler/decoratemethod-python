@@ -1,13 +1,12 @@
 [tool.poetry]
 name = "decoratemethod"
-version = "0.1.0"
+version = "0.1.1"
 description = "Let function decorator decorate the bound method of per instance."
 authors = ["Cologler <skyoflw@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/Cologler/decoratemethod-python"
 repository = "https://github.com/Cologler/decoratemethod-python"
-include = ["*.pyi"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

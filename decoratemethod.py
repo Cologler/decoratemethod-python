@@ -5,6 +5,7 @@
 #
 # ----------
 
+from typing import Callable, TypeVar
 import types
 from functools import update_wrapper
 
@@ -31,7 +32,9 @@ class _DecorateMethodDescriptor:
         raise AttributeError
 
 
-def decorate(decorator_func):
+_T = TypeVar('_T')
+
+def decorate(decorator_func: Callable[..., _T]) -> _T:
     '''
     decorate a method with give function decorator.
 
